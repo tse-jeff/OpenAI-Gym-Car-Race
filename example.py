@@ -5,7 +5,7 @@ from stable_baselines3 import PPO
 
 from gym_car_race.SelfDriveEnv import Car, Track
 from gym_car_race.training_utils import TensorboardCallback, linear_schedule
-from gym_car_race.config import cfg
+from gym_car_race.chickyNuggiesConfig import cfg
 
 
 # Set the directory where your models should be stored as well as the name of

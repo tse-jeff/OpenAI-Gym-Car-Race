@@ -5,7 +5,7 @@ from stable_baselines3 import PPO
 
 from gym_car_race.SelfDriveEnv import Car, Track
 from gym_car_race.training_utils import TensorboardCallback, constant_schedule, linear_schedule, run_experiment, testing, with_changes
-from gym_car_race.config import cfg
+from gym_car_race.chickyNuggiesConfig import cfg
 
 
 # Specify folders to save models/logs in
