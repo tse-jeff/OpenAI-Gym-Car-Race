@@ -8,7 +8,7 @@ import numpy as np
 import gym
 from gym import spaces
 
-from gym_car_race.config import cfg
+from gym_car_race.chickyNuggiesConfig import cfg
 
 
 class Track(gym.Env): 
